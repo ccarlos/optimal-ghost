@@ -1,5 +1,6 @@
 optimal-ghost
 =============
+Usage: python ghost.py inputfile
 
 Optimal Ghost
 

@@ -1,6 +1,9 @@
 *.py[co]
 *.swp
 
+# Dictionary file. Save github space by excluding.
+WORD.LST
+
 # Packages
 *.egg
 *.egg-info
