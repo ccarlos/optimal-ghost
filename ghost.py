@@ -61,7 +61,7 @@ class OptimalGhost:
         doesn't allow to advance a game.
         """
 
-        player_turn = 'Player.'
+        player_turn = 'Player'
         curr_word = ''
         turn = 0
         print "\nWelcome to Optimal Ghost!\n"
