@@ -1,20 +1,25 @@
-### *********************************************************
-### http://vkedco.blogspot.com/2012/02/trie-in-python.html
-### Module: trie.py
-### Description: A list and tuple based Python implementation
-### of the Trie data structure that supports the following
-### methods:
-### 1. insert_key(k, v, trie) - insert a non-empty string key k
-###    into trie and associate k with value v
-### 2. tr_has_key(k, trie) - True if trie has key k
-### 3. retrieve_val(k, trie) - retrieve value indexed under key
-###    k in trie
-### 4. start_with_prefix(prefix, trie) - return the list of
-###    all keys in trie that start with prefix.
-###
-### Bugs, comments to vladimir dot kulyukin at gmail dot com
-### *********************************************************
+"""A trie implementation.
 
+    Module: trie.py
+    Description: A list and tuple based Python implementation
+    of the Trie data structure that supports the following
+    methods:
+
+    1. insert_key(k, v) - insert a non-empty string key k
+        into trie and associate k with value v
+
+    2. tr_has_key(k) - True if trie has key k
+
+    3. retrieve_val(k) - retrieve value indexed under key
+        k in trie
+
+    4. start_with_prefix(prefix) - return the list of
+        all keys in trie that start with prefix.
+
+    Source: http://vkedco.blogspot.com/2012/02/trie-in-python.html
+
+    Bugs, comments to vladimir dot kulyukin at gmail dot com
+"""
 
 class Trie:
     def __init__(self):

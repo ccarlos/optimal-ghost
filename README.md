@@ -20,3 +20,6 @@ http://pypi.python.org/pypi/trie
 http://en.wikipedia.org/wiki/Trie
 http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=usingTries
 
+Python: Let's Try a Trie: 
+http://www.youtube.com/watch?v=BXeIu54mUg0
+http://www.youtube.com/watch?v=Yt3iCwIq7Ic
